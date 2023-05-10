@@ -3,7 +3,7 @@
   "version": "0.2.0",
   "license": "MIT",
   "scripts": {
-    "dev": "next",
+    "dev": "next -p 1988",
     "export": "next export",
     "build": "next build",
     "start": "next start"
