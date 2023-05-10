@@ -298,4 +298,9 @@ services:
       # PGDATA directory is persisted between restarts
       - ./volumes/db/data:/var/lib/postgresql/data:Z
 
+
+  frontend:     
+    build: ..
+    ports:
+      - "1988:1988"
 # If you want to use logging, please run with `docker compose -f docker-compose.yml -f docker-compose-logging.yml up`
